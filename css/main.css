@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu');
+
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Lato';
+}
+/* NAVBAR AND NAV */
+.navbar-brand{
+    font-family: 'Righteous';
+    font-size: 40px;
+    color: rgb(41, 8, 8) !important;
+}
+.nav-link{
+    font-family: 'Roboto Condensed';
+    font-size: 18px;
+    margin: 15px;
+    color: black !important;
+}
+.nav-link:hover{
+    color: tomato !important;
+}
+.active .nav-link{
+    color: tomato !important;
+}
+
+.menu-right-btn{
+    padding: 12px 42px;
+    font-size: 18px;
+    margin-right: 4%;
+    background-color: transparent;
+    transition: all 300ms ease-in; 
+}
+.menu-right-btn:hover{
+    color: whitesmoke;
+    background-color: tomato;
+}
+/* MAIN PART */
+.site-content{
+    background-image: url(../img/image9.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.site-title, .site-desc{
+    color:white;
+    font-weight: 100;
+}
+.site-title{
+    margin-top: 30%;
+    margin-bottom: 6%;
+    font-size: 50px;
+}
+.site-desc{
+    font-size: 15px;
+    padding-left: 15%;
+}
+.site-btn-1{
+    margin-left: 20%;
+    background-color: black;
+    color: white;
+}
+.site-btn-2{
+    background-color: white;
+}
+.site-btn-1, .site-btn-2{
+    margin-top: 5%;
+    margin-bottom: 40%;
+
+}
+
+/* SECTION Styling */
+.section-1 .heading-1{
+    margin-top: 8%;
+}
+.section-1 .heading-2{
+    margin-bottom: 5%;
+    font-size: 39px;
+}
+.section-1 .para-1{
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 6%;
+}
+.section-1 .para-1, .card-text{
+    color: rgba(0, 0, 0, 0.59);
+}
+.section-1{
+    margin-bottom: 8%;
+}
+.card{
+    width: 20rem;
+}
+
+/* SECTION 2 */
+.section-2 .container-fluid{
+    background-image: url(../img/image7.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.section-2 .heading-1{
+    margin-top: 20%;
+    margin-bottom: 5%;
+    font-family: 'Righteous';
+    width: 80%;
+    color: whitesmoke;
+}
+.section-2 .para{
+    font-family: 'Ubuntu';
+    width: 80%;
+    color: whitesmoke;
+    margin-bottom: 7%;
+}
+.section-2 .btn{
+    margin-bottom: 15%;
+    width: 30%;
+    padding: 2% 4%;
+}
+
+/* SECTION 3 */
+.section-3{
+    margin-top: 6%;
+}
+.section-3 p{
+    color: rgba(0, 0, 0, 0.59);
+}
+
+/* SECTION 4 */
+.section-4{
+    margin-top: 8%;
+}
+.section-4 .row .col-md-7, .col-md-5{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.section-4 a{
+    color: lightseagreen;
+    font-size: 40px;
+    text-decoration: none;
+}
+.section-4 .para-1{
+    color: white;
+    margin-top: 7%;
+    font-size: 18px;
+}
+
+/* FOOTER */
+.social i{
+    color: tomato;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px){
+    .section-1 .card{
+        width: 14rem;
+    }
+    .section-4 .col-md-7 img{
+        width: 350px;
+    }
+}
